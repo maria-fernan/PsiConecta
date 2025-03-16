@@ -3,11 +3,12 @@ body{
     font-family: "Kameron", serif;
     font-optical-sizing: auto;
     font-weight: 700;
+    color:rgba(24, 62, 100, 1);;
 }
 .item-navegacao{
     margin-top: 1px;
     font-size: 130%;
-    margin-left: 32%;
+    margin-left: 30%;
 }
 .botao-barra{
     background-color: rgba(24, 62, 100, 1);
@@ -21,7 +22,43 @@ body{
     margin-left: 2px;
     color:rgba(24, 62, 100, 1);
 }
-
 .nav-texto{
     color: rgba(24, 62, 100, 1) !important;
+}
+.frase{
+    margin-left: 4%;
+    font-size: 100%;
+    margin-top: 90px;
+}
+.invisivel{
+    color: rgba(214, 217, 228, 1);
+}
+.slogan{
+    font-size: 190%;
+}
+.frase1{
+    font-weight: initial;
+    font-size: large;
+}
+.destaque{
+    font-weight: bold;
+}
+.imagem{
+    width: 20px;
+    margin-left: 100px;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+.cards{
+    background-image: url(card.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+p{
+    margin-top: 10px;
+    margin-left: 60px;
+    font-size: 15px;
 }
