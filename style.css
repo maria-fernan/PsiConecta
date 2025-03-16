@@ -6,9 +6,8 @@ body{
 }
 .item-navegacao{
     margin-top: 1px;
-    margin-left: 680px;
-    font-size: 27px;
-    color: rgba(24, 62, 100, 1);
+    font-size: 130%;
+    margin-left: 32%;
 }
 .botao-barra{
     background-color: rgba(24, 62, 100, 1);
@@ -17,8 +16,8 @@ body{
     margin-left: 25px;
 }
 .texto-marca{
-    font-size: 45px;
-    margin-top: 7px;
+    font-size: 220%;
+    margin-top: 13.5px;
     margin-left: 2px;
     color:rgba(24, 62, 100, 1);
 }
