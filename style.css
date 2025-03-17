@@ -51,10 +51,100 @@ h1{
     text-align: center;
     font-weight: bold;
     font-size: 300%;
+    color: rgba(24, 62, 100, 1);
 }
 p{
     background-image: url(card.png);
     background-repeat: no-repeat;
     background-size: contain;
     font-size: 100%;
+}
+h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 220%;
+    color: rgba(29, 98, 119, 1);
+}
+.cartao1{
+    background-color: rgba(29, 98, 119, 1);
+    color: rgba(253, 251, 245, 1);
+    margin-left: 18%;
+    border-radius: 5%;
+    width: 23%;
+}
+.logoBranca{
+    margin-top: 3%;
+    width: 9.5%;
+    margin-left: 45%;
+}
+h3{
+    font-size: 230%;
+    text-align: center;
+}
+h4{
+    font-size: 100%;
+    font-weight: initial;
+    text-align: center;
+}
+.cartao2{
+    background-color: rgba(29, 98, 119, 1);
+    color: rgba(253, 251, 245, 1);
+    margin-left: 20%;
+    border-radius: 5%;
+    width: 23%;
+}
+.imagem1{
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.texto1{
+    margin-left: 10%;
+}
+.voluntario{
+    text-align: center;
+    font-size: 150%;
+}
+.mensagem{
+    color: rgba(0, 0, 0, 1);
+    font-weight: initial;
+    text-align: center;
+}
+.botao{
+    background-color: rgba(24, 62, 100, 1);
+    border-radius: 9%;
+    color: white;
+    font-size: 100%;
+    margin-left: 41%;
+}
+.linha{
+    text-align: center;
+}
+.duvidas{
+    margin-left: 10%;
+    margin-top: 3%;
+}
+h5{
+    font-weight: bold;
+    font-size: 160%;
+    margin-left: 36%;
+}
+h6{
+    text-align: left;
+    color: rgba(29, 98, 119, 1);
+    font-size: 170%;
+    font-weight: bold;
+    margin-left: 15%;
+}
+.h6{
+    color: rgba(24, 62, 100, 1);
+}
+.contato{
+    background-color: rgba(24, 62, 100, 1);
+    color: rgba(253, 251, 245, 1);
+    text-align: center;
+    margin-left: 15%;
+}
+.perguntas{
+    font-size: 110%;
+    margin-left: 20%;
 }
