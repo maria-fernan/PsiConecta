@@ -5,6 +5,9 @@ body{
     font-weight: 700;
     color:rgba(24, 62, 100, 1);;
 }
+.navbar{
+    background-color: rgba(253, 251, 245, 1);
+}
 .item-navegacao{
     margin-top: 1px;
     font-size: 130%;
@@ -24,6 +27,9 @@ body{
 }
 .nav-texto{
     color: rgba(24, 62, 100, 1) !important;
+}
+.cabecalho_fixo{
+    background-color: rgba(253, 251, 245, 1);
 }
 .frase{
     margin-left: 4%;
@@ -100,10 +106,11 @@ h4{
 .texto1{
     margin-left: 10%;
 }
-.voluntario{
+#voluntario{
     text-align: center;
     font-size: 150%;
 }
+
 .mensagem{
     color: rgba(0, 0, 0, 1);
     font-weight: initial;

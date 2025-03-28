@@ -16,30 +16,30 @@
 <link href="https://fonts.googleapis.com/css2?family=Kameron:wght@400..700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light ">
-        <a class="navbar-brand d-inline-flex" href="#">
-            <img src="logo.png" width="90px" height="96px" class="d-inline-block align-top" alt="">
-            <div class="texto-marca">PsiConecta</div>
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse item-navegacao" id="conteudoNavbarSuportado">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item">
-                <a class="nav-link nav-texto" href="#">Como funciona</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link nav-texto" href="#">Quero atendimento</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link nav-texto" href="#">Quero ajudar</a>
-              </li>
-              <button class="botao-barra">ENTRAR</button>
-            </ul>
-          </div>
-    </nav>
-    <br><br><br>
+  <nav class="navbar col-12 m-auto position-fixed navbar-expand-lg navbar-light ">
+      <a class="navbar-brand d-inline-flex" href="#">
+          <img src="logo.png" width="90px" height="96px" class="d-inline-block align-top" alt="">
+          <div class="texto-marca">PsiConecta</div>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse item-navegacao" id="conteudoNavbarSuportado">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link nav-texto" href="#primeira_interacao">Como funciona</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-texto" href="#segunda_interacao">Quero atendimento</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-texto" href="#voluntario">Quero ajudar</a>
+            </li>
+            <button class="botao-barra">ENTRAR</button>
+          </ul>
+      </div>
+  </nav>
+    <br><br><br><br><br><br>
     
     <div class="geral" style="display: flex; flex-direction: row;">
       <div class="texto"></div>
@@ -54,7 +54,7 @@
     </div>
       <br><br><br><br><br>
 
-      <h1>O que você vai encontrar aqui</h1>
+      <h1 id="primeira_interacao">O que você vai encontrar aqui</h1>
       <br><br>
       <div class="container">
         <div class="row justify-content-md-center">
@@ -110,7 +110,7 @@
       </div>
       <br><br><br><br>
 
-      <h2>Você não está só. <br> Conte com os voluntários do PsiConecta</h2>
+      <h2 id="segunda_interacao">Você não está só. <br> Conte com os voluntários do PsiConecta</h2>
       <br><br>
 
       <div class="geral" style="display: flex; flex-direction: row;">
@@ -138,7 +138,7 @@
           <img src="mocas.png">
         </div> 
         <div class="texto1">
-          <div class="voluntario">Que tal ser voluntário?</div><br>
+          <div id="voluntario">Que tal ser voluntário?</div><br>
           <div class="mensagem">Doamos nosso tempo e atenção para oferecer um espaço de<br>
             escuta e acolhimento a quem deseja conversar de forma<br>
             anônima, sigilosa e sem julgamentos ou críticas.<br>
@@ -148,7 +148,7 @@
             Venha ser voluntário no PsiConecta!</div><br>
             <button class="botao">EU QUERO</button><br><br>
             <div class="linha">-------------------------------------- / / -------------------------------------- </div><br>
-            <div class="voluntario">Quer fazer uma doação ou começar uma parceria?</div><br>
+            <div id="voluntario">Quer fazer uma doação ou começar uma parceria?</div><br>
             <div class="mensagem">Para realizar o serviço de apoio emocional, o PsiConecta<br>
               conta com o trabalho de seus voluntários. Porém, não há<br>
               nenhuma fonte de financiamento pública ou privada para<br>
