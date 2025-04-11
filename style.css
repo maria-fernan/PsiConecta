@@ -1,58 +1,60 @@
-body{
+body{ /*Informações do corpo*/
     background-color: rgba(253, 251, 245, 1);
     font-family: "Kameron", serif;
     font-optical-sizing: auto;
     font-weight: 700;
     color:rgba(24, 62, 100, 1);;
 }
-.navbar{
+
+/*Informações sobre a barra de navegação*/
+.navbar{ /*Cor de fundo da Navbar*/
     background-color: rgba(253, 251, 245, 1);
 }
-.item-navegacao{
+.item-navegacao{ /*Definições GERAIS dos intens da barra de navegação*/
     margin-top: 1px;
     font-size: 130%;
-    margin-left: 30%;
 }
-.botao-barra{
+.botao-barra{ /*Definições do botão da barra de navegação*/
     background-color: rgba(24, 62, 100, 1);
     border-radius: 9%;
     color: white;
     margin-left: 25px;
 }
-.texto-marca{
+.texto-marca{ /*Definições do título (PsiConecta) da barra de navegação*/
     font-size: 220%;
-    margin-top: 13.5px;
-    margin-left: 2px;
+    margin-left: 2%;
     color:rgba(24, 62, 100, 1);
 }
-.nav-texto{
+.nav-texto{ /*Cor dos tópicos da barra de navegação*/
     color: rgba(24, 62, 100, 1) !important;
 }
-.cabecalho_fixo{
-    background-color: rgba(253, 251, 245, 1);
-}
-.frase{
-    margin-left: 4%;
+
+/*Informações sobre o início*/
+.texto{ /*Características do texto inicial*/ 
+    margin-left: 2%;
     font-size: 100%;
-    margin-top: 90px;
+    margin-top: 10%;
 }
-.invisivel{
+.invisivel{ /*Tracinhos "invisíveis" para fazer a cor de fundo da primeira frase*/
     color: rgba(214, 217, 228, 1);
 }
-.slogan{
+.slogan{ /*Tamanho da fonte do slogan*/
     font-size: 190%;
 }
-.frase1{
+.frase{ /*Características do texto*/
     font-weight: initial;
     font-size: large;
 }
-.destaque{
+.destaque{ /*Destaque -> palavras em negrito*/
     font-weight: bold;
 }
-.imagem{
-    width: 20px;
-    margin-left: 15%;
+.imagem{ /*Características da imagem*/
+    width: 70%;
+    margin-left: 2%;
+    margin-top: 1%;
 }
+
+/*Não mexi ainda*/
 h1{
     text-align: center;
     font-weight: bold;
