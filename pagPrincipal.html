@@ -7,7 +7,7 @@
     <title>PsiConecta</title>
     <!--Bootstrap versão 5.3, links do css e java-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css"><!--Link do nosso css-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
     <!--Link da fonte-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,175 +15,213 @@
     <link href="https://fonts.googleapis.com/css2?family=Kameron:wght@400..700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!--Barra de navegação-->
-    <!--Imagem e texto-->
-    <nav class="navbar col-12 m-auto navbar-expand-lg position-fixed">
-        <div class="container-fluid" style="width: 50%;">
-          <a class="navbar-brand d-inline-flex" href="#inicio">
-            <img src="logo.png" width="11%" height="11%" class="d-inline-block align-top" alt="Logo">
-            <span class="texto-marca">PsiConecta</span>
-          </a>
-        </div>
-        <!--Botão de quando a página diminui--> <!--NÃO TÁ FUNCIONANDO-->
-          <button class="navbar-toggler" style="margin-right: 2%;" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        <!--Itens da barra de navegação-->
-            <div class="collapse navbar-collapse item-navegacao" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-2">
-                    <li class="nav-item">
-                        <a class="nav-link nav-texto" href="#primeira_interacao">Como funciona</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link nav-texto" href="#segunda_interacao">Quero atendimento</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link nav-texto" href="#voluntario">Quero ajudar</a>
-                    </li>
-                    <button class="botao-barra">ENTRAR</button>
-                    <li></li>
-                </ul>
-            </div>
-    </nav>
-    <div id="inicio"><!--Div vazia para indicar o início da página--></div>
-    <br><br><br><br><br><br><br>
+  <!--Barra de navegação-->
+  <!--Imagem e texto-->
+  <nav class="navbar col-12 m-auto navbar-expand-lg position-fixed">
+    <div class="container-fluid" style="width: 50%;">
+      <a class="navbar-brand d-inline-flex" href="#inicio">
+        <img src="logo.png" width="11%" height="11%" class="d-inline-block align-top" alt="Logo">
+        <span class="texto-marca">PsiConecta</span>
+      </a>
+    </div>
+    <!--Botão de quando a página diminui-->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="margin-right: 2%;">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!--Itens da barra de navegação-->
+    <div class="collapse navbar-collapse item-navegacao" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-2">
+        <li class="nav-item">
+            <a class="nav-link nav-texto" href="#primeira_interacao">Como funciona</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link nav-texto" href="#segunda_interacao">Quero atendimento</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link nav-texto" href="#voluntario">Quero ajudar</a>
+        </li>
+        <button class="botao-barra">ENTRAR</button>
+      </ul>
+    </div>
+  </nav>
+  <div id="inicio"><!--Div vazia para indicar o início da página--></div>
+  <br><br><br><br><br><br><br>
     
-    <!--Parte Inicial-->
-    <div class="container">
-      <div class="row">
-        <div class="col-md texto"><!--Texto-->
-            <span style="background-color:rgba(214, 217, 228, 1); border-radius: 3px;"><span class="invisivel">..</span>TRANSFORME SEU INTERIOR PARA MUDAR O SEU EXTERIOR<span class="invisivel">..</span></span><br>
-            <span  class="slogan">PsiConecta, onde se cuida da <br> mente e do coração.</span><br>
-            <span class="frase">Toda mudança começa de dentro pra fora e o <span class="destaque">PsiConecta é a<br>
-              chave</span> para se entender e se organizar internamente, e mudar<br>
-              tudo ao seu redor.</span></div>
-        <div class="col-md imagem"><!--Imagem-->
-            <img width="100%" style="border: solid 8px rgba(24, 62, 100, 1); border-radius: 35px;" src="equipe.jpeg" alt="equipe">
-        </div>
+  <!--Parte Inicial-->
+  <div class="container-fluid"><!--Container que facilita a página ser responsiva-->
+    <div class="row"><!--"Criação" das colunas-->
+      <div class="col-md texto"><!--Texto-->
+          <span style="background-color:rgba(214, 217, 228, 1); border-radius: 3px;"><span class="invisivel">..</span>TRANSFORME SEU INTERIOR PARA MUDAR O SEU EXTERIOR<span class="invisivel">..</span></span><br>
+          <span  class="slogan">PsiConecta, onde se cuida da mente e do coração.</span><br>
+          <span class="frase">Toda mudança começa de dentro pra fora e o <span class="destaque">PsiConecta é a
+            chave</span> para se entender e se organizar internamente, e mudar
+            tudo ao seu redor.</span></div>
+      <div class="col-md imagem"><!--Imagem-->
+          <img width="100%" style="border: solid 6.5px rgba(24, 62, 100, 1); border-radius: 5%;" src="equipe.jpeg" alt="equipe">
       </div>
     </div>
-      <br><br><br><br><br><br><br>
+  </div>
+  <div id="primeira_interacao"><!--Div vazia para indicar a primeira interação--></div>
+  <br><br><br><br><br><br><br>
 
-      <!--Não mexi ainda-->
-      <h1 id="primeira_interacao">O que você vai encontrar aqui</h1>
-      <br><br>
-      <div class="container">
-        <div class="row justify-content-md-center">
-          <div class="col">
-            <p><span style="font-size:25px; margin-left:50px">Psicólogos qualificados:</span><br>
-            <img style="margin-left:110px;" src="img1.png"><br>
-            <span style="margin-left: 50px;">Uma equipe formada por profissionais</span><br> 
-            <span style="margin-left: 50px;">experientes e de diferentes áreas da</span><br>
-            <span style="margin-left: 50px;">psicologia, selecionados para oferecer</span><br>
-            <span style="margin-left: 50px;">um atendimento acolhedor e ético.</span>
-          <br><br></p>
+  <!--Como funciona-->
+  <h1>O que você vai encontrar aqui</h1><!--Título da seção-->
+  <br><br>
+  <div class="container"><!--Container que facilita a página ser responsiva-->
+    <div class="row"><!--"Criação" das colunas da primeira linha-->
+      <div class="col-md" id="baloes"><!--Primeiro balão-->
+        <span class="tituloBalao">Psicólogos qualificados:</span><br>
+        <img src="img1.png"><br>
+        <span class="textoBalao">Uma equipe formada por profissionais<br>
+          experientes e de diferentes áreas da<br>
+          psicologia, selecionados para oferecer<br>
+          um atendimento acolhedor e ético.<br>
+        </span>
+        <br><br>
+      </div><!--Fim do primeiro balão-->
+      <div class="col-md" id="baloes"><!--Segundo balão-->
+        <span class="tituloBalao">Técnicas terapêuticas:</span><br>
+        <img class="imagemBalao" src="img2.png"><br><br>
+        <span class="textoBalao">Aplicações de abordagens comprovadas<br>
+          e adaptadas às necessidades individuais<br>
+          de cada usuário.<br>
+        </span>
+        <br><br>
+      </div><!--Fim do segundo balão-->
+    </div>
+  </div>
+  <br><br>
+  <!--Linha de baixo-->
+  <div class="container"><!--Container que facilita a página ser responsiva-->
+    <div class="row"><!--"Criação" das colunas da segunda linha-->
+      <div class="col-md" id="baloes"><!--Terceiro balão-->
+        <span class="tituloBalao">Psicoeducação:</span><br>
+        <img style="height: 80px" src="img3.png"><br>
+        <span class="textoBalao">Ajudamos você a organizar e<br> 
+          conciliar sua vida pessoal,<br>
+          sua saúde emocional e sua<br>
+          saúde física.
+        </span>
+        <br><br>
+      </div><!--Fim do terceiro balão-->
+      <div class="col-md" id="baloes"><!--Quarto balão-->
+        <span class="tituloBalao">Acessibilidade:</span><br>
+        <img style="height: 115px" src="img4.png"><br>
+        <span class="textoBalao">Navegação intuitiva e serviços<br> 
+          gratuitos, tornando o cuidado<br>
+          psicológico disponível para todos.
+        </span>
+        <br><br>
+      </div><!--Fim do quarto balão-->
+      <div class="col-md" id="baloes"><!--Quinto balão-->
+        <span class="tituloBalao">Contato fácil e rápido com a equipe:</span><br>
+        <img style="height: 70px" src="img5.png"><br>
+        <span class="textoBalao">Canal direto com a equipe de comunicação<br> 
+          com os desenvolvedores e suporte técnico<br>
+          para solucionar dúvidas ou problemas.
+        </span>
+        <br><br>
+      </div><!--Fim do quinto balão-->
+    </div>
+  </div>
+  <div id="segunda_interacao"><!--Div vazia para indicar a segunda interação--></div>
+  <br><br><br><br><br>
+
+  <!--Quero atendimento-->
+  <h2 >Você não está só. <br> Conte com os voluntários do PsiConecta!</h2>
+  <br><br>
+  <div class="container-fluid"><!--Container que facilita a página ser responsiva-->
+    <div class="row"><!--"Criação" das colunas-->
+      <div class="col-1"><!--Div vazia para ajustar os cartões--></div>
+      <div class="col-md cartao"><!--Primeiro cartão-->
+        <a href="##" role="button" class="link"><!--Botão/link que vai direcionar para a página de login-->
+          <div><!--Div para transformar todo o cartão em botão-->
+            <img class="logoBranca" src="logoBranca.png">
+            <div class="tituloCartao">Psicólogos</div>
+            <div class="textoCartao">No PsiConecta você  encontra profissionais<br>
+              qualificados nas mais diversas áreas da<br>
+              psicologia, que estão dispostos a ajudar você.</div>
+            <img src="psiEpaci.png" width="50%">
           </div>
-          <div class="col" style="margin-left: 20%;">
-            <p><span style="font-size:25px; margin-left:67px">Técnicas terapêuticas:</span><br>
-              <img style="margin-left:120px;" src="img2.png"><br>
-              <span style="margin-left: 45px;">Aplicações de abordagens comprovadas</span><br> 
-              <span style="margin-left: 45px;">e adaptadas às necessidades individuais</span><br>
-              <span style="margin-left: 140px;"> de cada usuário.</span><br>
-            <br><br></p>
+        </a>
+      </div> 
+      <div class="col-1"><!--Div vazia para ajustar os cartões--></div>
+      <div class="col-md cartao"><!--Segundo cartão-->
+        <a href="##" role="button" class="link"><!--Botão/link que vai direcionar para a página de login-->
+          <div><!--Div para transformar todo o cartão em botão-->
+            <img class="logoBranca" src="logoBranca.png">
+            <div class="tituloCartao">Fale conosco</div>
+            <div class="textoCartao">Tem alguma dúvida ou precisa de suporte?<br> 
+                No Fale conosco você sempre entrará em<br> 
+                contato diretamente com nossa equipe.</div>
+            <img src="telefone.png" width="50%" >
           </div>
-        </div>
+          </a>
       </div>
-      <br><br>
+      <div class="col-1"><!--Div vazia para ajustar os cartões--></div>
+    </div>
+  </div>
+  <div id="voluntario"><!--Div vazia para indicar a parte de "Quero ajudar"--></div>
+  <br><br><br><br><br><br><br>
 
-      <div class="container">
-        <div class="row justify-content-md-center">
-          <div class="col">
-            <p><span style="font-size:25px; margin-left:50px">Psicoeducação:</span><br>
-            <img style="margin-left:110px; height: 80px" src="img3.png"><br>
-            <span style="margin-left: 50px;">Ajudamos você a organizar e</span><br> 
-            <span style="margin-left: 50px;">conciliar sua vida pessoal,</span><br>
-            <span style="margin-left: 50px;">sua saúde emocional e sua</span><br>
-            <span style="margin-left: 50px;">saúde física.</span>
-          <br><br></p>
+  <!--Quero ajudar-->
+  <div class="container-fluid"><!--Container que facilita a página ser responsiva-->
+    <div class="row"><!--"Criação" das colunas-->
+      <div class="col-1"><!--Div vazia para ajustar os elementos--></div>
+      <div class="col-md"><!--Imagem-->
+        <br><br><br>
+        <img src="mocas.png">
+      </div>
+      <div class="col-1"><!--Div vazia para ajustar os elementos--></div>
+      <div class="col-md"><!--Texto-->
+        <div class="voluntario">Que tal ser voluntário?</div><br>
+        <div class="mensagem">Doamos nosso tempo e atenção para oferecer um espaço de<br>
+          escuta e acolhimento a quem deseja conversar de forma<br>
+          anônima, sigilosa e sem julgamentos ou críticas.<br>
+          Ser voluntário no PsiConecta é muito mais do que apenas<br>
+          conversar com alguém, é lidar com os princípios de<br>
+          transparência e o sigilo que são valores fundamentais para nós.<br>
+          Venha ser voluntário no PsiConecta!
+        </div><br>
+        <button class="botao">EU QUERO</button><br><br>
+        <div class="linha">-------------------------------------- / / -------------------------------------</div><br>
+        <div class="voluntario">Quer fazer uma doação ou começar uma parceria?</div><br>
+        <div class="mensagem">Para realizar o serviço de apoio emocional, o PsiConecta<br>
+          conta com o trabalho de seus voluntários. Porém, não há<br>
+          nenhuma fonte de financiamento pública ou privada para<br>
+          garantir a sua infraestrutura e a divulgação.<br>
+          Ao arrecadar fundos para o PsiConecta, você nos ajuda a<br>
+          estar lá para apoiar aqueles que mais precisam de nós.
+        </div><br>
+        <button class="botao">EU QUERO</button><br>
+      </div>
+      <div class="col-1"><!--Div vazia para ajustar os elementos--></div>
+    </div>
+  </div>
+  <br><br><br><br><br><br><br>
+
+  <!--parte das "Dúvidas"-->
+  <div class="container-fluid"><!--Container que facilita a página ser responsiva-->
+    <div class="row"><!--"Criação" das colunas-->
+      <div class="col-1"><!--Div vazia para ajustar os elementos--></div>
+      <div class="col-md duvidas"><!--Informações do lado esquerdo-->
+        <img src="logo.png" width="20%"><br>
+          <div class="nome">PsiConecta</div><br>
+          <div class="questao">
+            Ficou com alguma dúvida?
+          </div><br>
+          <div class="sugestao">
+            Confira as respostas para as perguntas frequentes ou entre 
+            em contato conosco.
+          </div><br>
+          <div class="contato">
+            ATENDIMENTO POR EMAIL:<br>
+            contato@psiconecta.com
           </div>
-          <div class="col">
-            <p><span style="font-size:25px; margin-left:67px">Acessibilidade:</span><br>
-              <img style="margin-left:110px; height: 115px" src="img4.png"><br>
-              <span style="margin-left: 45px;">Navegação intuitiva e serviços</span><br> 
-              <span style="margin-left: 45px;">gratuitos, tornando o cuidado<br>
-              <span style="margin-left: 45px;">psicológico disponível para todos.</span><br>
-            <br><br></p>
-          </div>
-          <div class="col">
-            <p><span style="font-size:18px; margin-left:60px">Contato fácil e rápido com a equipe:</span><br>
-              <img style="margin-left:120px; height: 70px" src="img5.png"><br>
-              <span style="margin-left: 5px;">Canal direto com a equipe de comunicação</span><br> 
-              <span style="margin-left: 5px;">com os desenvolvedores e suporte técnico</span><br>
-              <span style="margin-left: 5px;">para solucionar dúvidas ou problemas.</span><br>
-            <br><br></p>
-          </div>
-        </div>
       </div>
-      <br><br><br><br>
-
-      <h2 id="segunda_interacao">Você não está só. <br> Conte com os voluntários do PsiConecta</h2>
-      <br><br>
-
-      <div class="geral" style="display: flex; flex-direction: row;">
-        <div class="cartao1">
-          <img class="logoBranca" src="logoBranca.png">
-          <h3>Psicólogos</h3>
-          <h4>No PsiConecta você  encontra profissionais<br>
-            qualificados nas mais diversas áreas da<br>
-            psicologia, que estão dispostos a ajudar você.</h4>
-          <img src="psiEpaci.png" width="50%" style="margin-left: 27%;">
-        </div> 
-        <div class="cartao2">
-          <img class="logoBranca" src="logoBranca.png">
-          <h3>Fale conosco</h3>
-          <h4>Tem alguma dúvida ou precisa de suporte?<br> 
-            No Fale conosco você sempre entrará em<br> 
-            contato diretamente com nossa equipe.</h4>
-          <img src="telefone.png" width="50%" style="margin-left: 27%;">
-      </div>
-      </div>
-      <br><br><br><br><br><br>
-
-      <div class="geral" style="display: flex; flex-direction: row;">
-        <div class="imagem1">
-          <img src="mocas.png">
-        </div> 
-        <div class="texto1">
-          <div id="voluntario">Que tal ser voluntário?</div><br>
-          <div class="mensagem">Doamos nosso tempo e atenção para oferecer um espaço de<br>
-            escuta e acolhimento a quem deseja conversar de forma<br>
-            anônima, sigilosa e sem julgamentos ou críticas.<br>
-            Ser voluntário no PsiConecta é muito mais do que apenas<br>
-            conversar com alguém, é lidar com os princípios de<br>
-            transparência e o sigilo que são valores fundamentais para nós.<br>
-            Venha ser voluntário no PsiConecta!</div><br>
-            <button class="botao">EU QUERO</button><br><br>
-            <div class="linha">-------------------------------------- / / -------------------------------------- </div><br>
-            <div id="voluntario">Quer fazer uma doação ou começar uma parceria?</div><br>
-            <div class="mensagem">Para realizar o serviço de apoio emocional, o PsiConecta<br>
-              conta com o trabalho de seus voluntários. Porém, não há<br>
-              nenhuma fonte de financiamento pública ou privada para<br>
-              garantir a sua infraestrutura e a divulgação.<br>
-              Ao arrecadar fundos para o PsiConecta, você nos ajuda a<br>
-              estar lá para apoiar aqueles que mais precisam de nós.</div><br>
-            <button class="botao">EU QUERO</button><br>
-      </div>
-      </div>
-      <br><br><br><br><br><br>
-
-      <div class="geral" style="display: flex; flex-direction: row;">
-        <div class="duvidas">
-          <img src="logo.png" width="20%" style="margin-left: 43%;"><br>
-          <h5>PsiConecta</h5><br>
-          <h6>Ficou com alguma dúvida?<br>
-          <span class="h6">Confira as respostas para as perguntas frequentes 
-            ou entre em contato conosco.</span></h6><br>
-            <div class="contato">ATENDIMENTO POR EMAIL:<br>
-              contato@psiconecta.com
-            </div>
-        </div>
-        <div class="perguntas">
-          <img src="seta.png" width="3%"> O PsiConecta substitui a terapia?<br><br>
+      <div class="col-2"><!--Div vazia para ajustar os elementos--></div>
+      <div class="col-md perguntas"><!--Informações do lado direito-->
+        <img src="seta.png" width="3%"> O PsiConecta substitui a terapia?<br><br>
           <img src="linha.png"><br><br>
           <img src="seta.png" width="3%"> Pensa em fazer uma parceria?<br><br>
           <img src="linha.png"><br><br>
@@ -192,7 +230,9 @@
           <img src="seta.png" width="3%"> Quer fazer alguma sugestão ou reclamação?<br><br>
           <img src="linha.png"><br>
       </div>
-      </div>
-      <br><br><br>
+      <div class="col-1"><!--Div vazia para ajustar os elementos--></div>
+    </div>
+  </div>
+  <br><br><br>
 </body>
 </html>

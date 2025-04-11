@@ -1,4 +1,4 @@
-body{ /*Informações do corpo*/
+body{ /*Informações GERAIS do corpo*/
     background-color: rgba(253, 251, 245, 1);
     font-family: "Kameron", serif;
     font-optical-sizing: auto;
@@ -30,10 +30,10 @@ body{ /*Informações do corpo*/
 }
 
 /*Informações sobre o início*/
-.texto{ /*Características do texto inicial*/ 
-    margin-left: 2%;
-    font-size: 100%;
-    margin-top: 10%;
+.texto{ /*Características GERAIS do texto inicial*/ 
+    font-size: 120%;
+    margin: auto;
+    margin-left: 3%;
 }
 .invisivel{ /*Tracinhos "invisíveis" para fazer a cor de fundo da primeira frase*/
     color: rgba(214, 217, 228, 1);
@@ -41,119 +41,119 @@ body{ /*Informações do corpo*/
 .slogan{ /*Tamanho da fonte do slogan*/
     font-size: 190%;
 }
-.frase{ /*Características do texto*/
+.frase{ /*Características do textinho*/
     font-weight: initial;
-    font-size: large;
+    font-size: large 10%;
 }
 .destaque{ /*Destaque -> palavras em negrito*/
     font-weight: bold;
 }
 .imagem{ /*Características da imagem*/
     width: 70%;
-    margin-left: 2%;
-    margin-top: 1%;
+    margin: auto;
+    margin-right: 3%;
 }
 
-/*Não mexi ainda*/
-h1{
+/*Informações do "Como funciona"*/
+h1{ /*Título da seção*/
     text-align: center;
     font-weight: bold;
-    font-size: 300%;
+    font-size: 200%;
     color: rgba(24, 62, 100, 1);
 }
-p{
+#baloes{ /*Características GERAIS dos balões*/
     background-image: url(card.png);
     background-repeat: no-repeat;
     background-size: contain;
-    font-size: 78%;
+    background-position: center;
+    text-align: center;
+    margin: auto;
 }
-h2{
+.tituloBalao{ /*Características dos títulos dos balões*/
+    font-size: 165%;
+}
+.textoBalao{ /*Caracteristicas dos textos dos balões*/
+    font-size: 100%;
+}
+
+
+
+/*Informações do "Quero atendimento"*/
+h2{ /*Título da seção*/
     text-align: center;
     font-weight: bold;
     font-size: 220%;
     color: rgba(29, 98, 119, 1);
 }
-.cartao1{
+.cartao{ /*Definições GERAIS dos cartões*/
     background-color: rgba(29, 98, 119, 1);
     color: rgba(253, 251, 245, 1);
-    margin-left: 18%;
     border-radius: 5%;
-    width: 23%;
+    text-align: center;
+    width: 10%;
 }
-.logoBranca{
+.logoBranca{ /*Definições da logo dos cartões*/
     margin-top: 3%;
     width: 9.5%;
-    margin-left: 45%;
 }
-h3{
+.tituloCartao{ /*Definições dos títulos dos cartões*/
     font-size: 230%;
-    text-align: center;
 }
-h4{
+.textoCartao{ /*Definições dos textos dos cartões*/
     font-size: 100%;
     font-weight: initial;
-    text-align: center;
 }
-.cartao2{
-    background-color: rgba(29, 98, 119, 1);
+.link{ /*Definições do botão/link*/
     color: rgba(253, 251, 245, 1);
-    margin-left: 20%;
-    border-radius: 5%;
-    width: 23%;
+    text-decoration: none;
 }
-.imagem1{
-    margin-left: 10%;
-    margin-top: 5%;
-}
-.texto1{
-    margin-left: 10%;
-}
-#voluntario{
+
+/*Informações "Quero ajudar"*/
+.voluntario{ /*Títulos*/
     text-align: center;
     font-size: 150%;
 }
-
-.mensagem{
+.mensagem{ /*Definições dos textos*/
     color: rgba(0, 0, 0, 1);
     font-weight: initial;
     text-align: center;
 }
-.botao{
+.botao{ /*Definiões dos botões*/
     background-color: rgba(24, 62, 100, 1);
     border-radius: 9%;
     color: white;
     font-size: 100%;
     margin-left: 41%;
 }
-.linha{
+.linha{ /*Linha separando os "tópicos"*/
     text-align: center;
 }
-.duvidas{
-    margin-left: 10%;
-    margin-top: 3%;
+
+/*Dúvidas*/
+.duvidas{ /*Informação GERAL do que está do lado esquerdo*/
+    text-align: center;
 }
-h5{
+.nome{ /*Escrito "PsiConecta"*/
     font-weight: bold;
     font-size: 160%;
-    margin-left: 36%;
 }
-h6{
-    text-align: left;
+.questao{ /*Pergunta do lado esquerdo*/
     color: rgba(29, 98, 119, 1);
     font-size: 170%;
     font-weight: bold;
-    margin-left: 15%;
 }
-.h6{
+.sugestao{ /*Sugestão do que fazer*/
     color: rgba(24, 62, 100, 1);
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
 }
-.contato{
+.contato{ /*Informações para contato*/
     background-color: rgba(24, 62, 100, 1);
     color: rgba(253, 251, 245, 1);
     text-align: center;
-    margin-left: 15%;
 }
-.perguntas{
+.perguntas{ /*Perguntas do lado direito*/
     font-size: 110%;
-    margin-left: 20%;
 }
