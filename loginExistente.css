@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    background: linear-gradient(to bottom, #1f6077, #257a73);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Kameron", serif;
+    font-optical-sizing: auto;
+    background-repeat: no-repeat;
+}
+.caixa{
+    background-color: white;
+    border-radius: 4%;
+    text-align: center;
+}
+.logo{
+    margin-top: 3.5%;
+    width: 13%;
+}
+.subtitulo{
+    text-align: left;
+    color: #1f3c5b !important;
+}
+h2{
+    color: #1f3c5b !important;
+    font-size: 160%;
+    font-weight: bold;
+}
+.esqueceuSenha{
+    color: #1f3c5b !important;
+    font-size: 110%;
+    font-weight: initial;
+}
+.botaoV{
+    color: #1f3c5b !important;
+    font-size: 100%;
+    font-weight: initial;
+    margin-right: 2%;
+}
+.botaoE{
+    color: #1f3c5b !important;
+    font-size: 100%;
+    font-weight: bolder;
+    border: solid 3px #1f3c5b;
+    margin-left: 2%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.botaoE:hover {
+    border: solid 2px;
+    color: black;
+    background-color: #f0f0f0;
+}

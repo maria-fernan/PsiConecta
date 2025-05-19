@@ -1,0 +1,106 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(to bottom, #125874, #257a73);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.topo{
+  text-align: center;
+  color: white;
+  padding: 1.5rem 1rem 0.5rem;
+  font-size: 1.1rem;
+  font-family: "Kameron", serif;
+  font-weight: bold;
+}
+
+.container-form {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  margin-bottom: 50px;
+  max-width: 90%;
+  padding: 2rem;
+}
+
+.icon {
+  width: 70px;
+  display: block;
+  margin: 0 auto;
+}
+
+.feliz {
+  color: #1f3c5b !important;
+  font-weight: bold;
+  font-size: 1.25rem;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-family: "Kameron", serif;
+}
+
+p {
+  color: #1f3c5b !important;
+  font-size: 100%;
+  text-align: center;
+  font-weight: initial;
+  font-family: "Kameron", serif;
+  }
+
+label {
+  color: #1f3c5b;
+  margin-bottom: 5px;
+  font-family: "Kameron", serif;
+  }
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: #1f3c5b
+  }
+
+.linha {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.campo {
+  flex: 1 1 300px;
+}
+
+button[type="submit"] {
+  background-color: #1f3c5b;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+a{
+  color: #1f3c5b;
+}
+
+@media (max-width: 768px) {
+  .linha {
+    flex-direction: column;
+  }
+
+  .d-flex.justify-content-between {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1rem;
+  }
+
+  button[type="submit"] {
+    width: 100%;
+  }
+}
