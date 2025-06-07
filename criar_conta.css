@@ -1,0 +1,53 @@
+body, html {
+    height: 100%;
+    background: linear-gradient(to bottom, #1f6077, #257a73);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Kameron", serif;
+    font-optical-sizing: auto;
+    background-repeat: no-repeat;
+}
+.caixa{
+    background-color: white;
+    border-radius: 4%;
+    text-align: center;
+}
+.logo{
+    margin-top: 3.5%;
+    width: 13%;
+}
+h2{
+    color: #1f3c5b !important;
+    font-size: 160%;
+    font-weight: bold;
+}
+.continuar{
+    color:rgb(255, 255, 255) !important;
+    font-size: 110%;
+    font-weight: bold;
+    border: solid 1px #1f3c5b;
+    background-color: #257a73;
+    border-radius: 4%;
+    width: 55%;
+}
+.botaoV{
+    color: #1f3c5b !important;
+    font-size: 115%;
+    font-weight: initial;
+    margin-top: 3%;
+}
+.botaoE{
+    color: #257a73 !important;
+    font-size: 115%;
+    font-weight: initial;
+}
+.google{
+    text-align: center; 
+    display: flex; 
+    justify-content: center; 
+}
+.termos{
+    color: #257a73;
+}
+
