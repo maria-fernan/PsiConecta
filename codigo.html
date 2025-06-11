@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digite o Código</title>
+  <link rel="stylesheet" href="codigo.css">
+</head>
+
+<body>
+  <div class="container">
+    <h2>Por favor entre com o código de verificação aqui</h2>
+    <div class="code-inputs">
+      <input type="text" maxlength="1">
+      <input type="text" maxlength="1">
+      <input type="text" maxlength="1">
+      <input type="text" maxlength="1">
+    </div>
+    <button class="btn" onclick="verificarCodigo()">CONTINUAR</button>
+    <a href="#" class="voltar"><- Voltar</a>
+  </div>
+
+  <script>
+    // Avança automaticamente pro próximo quadrinho ao digitar
+    const inputs = document.querySelectorAll('.code-inputs input');
+    inputs.forEach((input, index) => {
+      input.addEventListener('input', () => {
+        if (input.value.length === 1 && index < inputs.length - 1) {
+          inputs[index + 1].focus();
+        }
+      });
+    });
+
+    function verificarCodigo() {
+      const codigo = Array.from(inputs).map(input => input.value).join('');
+      alert("Código digitado: " + codigo);
+    }
+  </script>
+</body>
+</html>

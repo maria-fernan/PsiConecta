@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: linear-gradient(to bottom right, #1d6f82, #256d72);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  .container {
+    background: white;
+    padding: 40px 30px;
+    border-radius: 15px;
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  h2 {
+    font-size: 20px;
+    color: #223E57;
+    margin-bottom: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:25px;
+  }
+
+  p {
+    color: #223E57;
+    font-size: 18px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .btn {
+    background-color: #237d78;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  .btn:hover {
+    background-color: #1f6b66;
+  }
+
+  .voltar {
+    display: block;
+    margin-top: 20px;
+    color: #223E57;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  
+  .imagemVerificado{
+     width: 100px;
+  }
