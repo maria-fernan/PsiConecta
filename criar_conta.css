@@ -30,6 +30,8 @@ h2{
     background-color: #257a73;
     border-radius: 4%;
     width: 55%;
+    border-radius: 5%;
+    padding: 1.5%;
 }
 .botaoV{
     color: #1f3c5b !important;

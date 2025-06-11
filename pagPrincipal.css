@@ -12,7 +12,7 @@ body{ /*Informações GERAIS do corpo*/
 }
 .item-navegacao{ /*Definições GERAIS dos intens da barra de navegação*/
     margin-top: 1px;
-    font-size: 130%;
+    font-size: 150%;
 }
 .botao-barra{ /*Definições do botão da barra de navegação*/
     background-color: rgba(24, 62, 100, 1);
@@ -31,15 +31,12 @@ body{ /*Informações GERAIS do corpo*/
 
 /*Informações sobre o início*/
 .texto{ /*Características GERAIS do texto inicial*/ 
-    font-size: 120%;
+    font-size: 140%;
     margin: auto;
     margin-left: 3%;
 }
-.invisivel{ /*Tracinhos "invisíveis" para fazer a cor de fundo da primeira frase*/
-    color: rgba(214, 217, 228, 1);
-}
 .slogan{ /*Tamanho da fonte do slogan*/
-    font-size: 190%;
+    font-size: 210%;
 }
 .frase{ /*Características do textinho*/
     font-weight: initial;
@@ -58,7 +55,7 @@ body{ /*Informações GERAIS do corpo*/
 h1{ /*Título da seção*/
     text-align: center;
     font-weight: bold;
-    font-size: 200%;
+    font-size: 230%;
     color: rgba(24, 62, 100, 1);
 }
 #baloes{ /*Características GERAIS dos balões*/
@@ -70,10 +67,10 @@ h1{ /*Título da seção*/
     margin: auto;
 }
 .tituloBalao{ /*Características dos títulos dos balões*/
-    font-size: 165%;
+    font-size: 190%;
 }
 .textoBalao{ /*Caracteristicas dos textos dos balões*/
-    font-size: 100%;
+    font-size: 120%;
 }
 
 
@@ -99,7 +96,7 @@ h2{ /*Título da seção*/
     font-size: 230%;
 }
 .textoCartao{ /*Definições dos textos dos cartões*/
-    font-size: 100%;
+    font-size: 130%;
     font-weight: initial;
 }
 .link{ /*Definições do botão/link*/
@@ -110,18 +107,19 @@ h2{ /*Título da seção*/
 /*Informações "Quero ajudar"*/
 .voluntario{ /*Títulos*/
     text-align: center;
-    font-size: 150%;
+    font-size: 200%;
 }
 .mensagem{ /*Definições dos textos*/
     color: rgba(0, 0, 0, 1);
     font-weight: initial;
     text-align: center;
+    font-size: 120%;
 }
 .botao{ /*Definiões dos botões*/
     background-color: rgba(24, 62, 100, 1);
     border-radius: 9%;
     color: white;
-    font-size: 100%;
+    font-size: 120%;
     margin-left: 41%;
 }
 .linha{ /*Linha separando os "tópicos"*/
@@ -137,7 +135,7 @@ h2{ /*Título da seção*/
     font-size: 160%;
 }
 .questao{ /*Pergunta do lado esquerdo*/
-    color: rgba(29, 98, 119, 1);
+    color: rgba(24, 62, 100, 1);
     font-size: 170%;
     font-weight: bold;
 }
@@ -147,6 +145,7 @@ h2{ /*Título da seção*/
     margin-bottom: .5rem;
     font-weight: 500;
     line-height: 1.2;
+    font-size: 120%;
 }
 .contato{ /*Informações para contato*/
     background-color: rgba(24, 62, 100, 1);
