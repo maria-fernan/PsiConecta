@@ -1,6 +1,9 @@
 body {
     margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Kameron", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    color:#183e64;
     background: linear-gradient(to bottom right, #1d6f82, #256d72);
     display: flex;
     align-items: center;
@@ -43,6 +46,7 @@ body {
   }
 
   .btn {
+    font-family: "Kameron", serif;
     background-color: #237d78;
     color: white;
     border: none;
@@ -63,5 +67,5 @@ body {
     color: #1c1c59;
     text-decoration: none;
     font-size: 16px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: initial;
   }

@@ -1,6 +1,9 @@
 body {
     margin: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "Kameron", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    color:#183e64;
     background: linear-gradient(to bottom right, #1d6f82, #256d72);
     display: flex;
     align-items: center;
@@ -22,17 +25,16 @@ body {
     font-size: 20px;
     color: #223E57;
     margin-bottom: 10px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
     font-size:25px;
   }
 
   p {
     color: #223E57;
     font-size: 18px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
 
   .btn {
+    font-family: "Kameron", serif;
     background-color: #237d78;
     color: white;
     border: none;
@@ -54,6 +56,7 @@ body {
     color: #223E57;
     text-decoration: none;
     font-size: 18px;
+    font-weight: initial;
   }
 
   

@@ -3,30 +3,30 @@ body{ /*Informações GERAIS do corpo*/
     font-family: "Kameron", serif;
     font-optical-sizing: auto;
     font-weight: 700;
-    color:rgba(24, 62, 100, 1);
+    color:#183e64;
 }
 
 /*Informações sobre a barra de navegação*/
 .navbar{ /*Cor de fundo da Navbar*/
-    background-color: rgba(253, 251, 245, 1);
+    background-color: #fdfbf5;
 }
 .item-navegacao{ /*Definições GERAIS dos intens da barra de navegação*/
     margin-top: 1px;
-    font-size: 150%;
+    font-size: 140%;
 }
 .botao-barra{ /*Definições do botão da barra de navegação*/
-    background-color: rgba(24, 62, 100, 1);
+    background-color: #183e64;
     border-radius: 9%;
-    color: white;
+    color: #ffffff;
     margin-left: 25px;
 }
 .texto-marca{ /*Definições do título (PsiConecta) da barra de navegação*/
     font-size: 220%;
     margin-left: 2%;
-    color:rgba(24, 62, 100, 1);
+    color:#183e64;
 }
 .nav-texto{ /*Cor dos tópicos da barra de navegação*/
-    color: rgba(24, 62, 100, 1) !important;
+    color: #183e64 !important;
 }
 
 /*Informações sobre o início*/
@@ -56,12 +56,10 @@ h1{ /*Título da seção*/
     text-align: center;
     font-weight: bold;
     font-size: 230%;
-    color: rgba(24, 62, 100, 1);
+    color: #183e64;
 }
 #baloes{ /*Características GERAIS dos balões*/
-    background-image: url(card.png);
-    background-repeat: no-repeat;
-    background-size: contain;
+    background-color: #1e787833;
     background-position: center;
     text-align: center;
     margin: auto;
@@ -80,11 +78,11 @@ h2{ /*Título da seção*/
     text-align: center;
     font-weight: bold;
     font-size: 220%;
-    color: rgba(29, 98, 119, 1);
+    color: #1d6277;
 }
 .cartao{ /*Definições GERAIS dos cartões*/
-    background-color: rgba(29, 98, 119, 1);
-    color: rgba(253, 251, 245, 1);
+    background-color: #1d6277;
+    color: #fdfbf5;
     border-radius: 5%;
     text-align: center;
 }
@@ -100,7 +98,7 @@ h2{ /*Título da seção*/
     font-weight: initial;
 }
 .link{ /*Definições do botão/link*/
-    color: rgba(253, 251, 245, 1);
+    color: #fdfbf5;
     text-decoration: none;
 }
 
@@ -110,7 +108,7 @@ h2{ /*Título da seção*/
     font-size: 200%;
 }
 .mensagem{ /*Definições dos textos*/
-    color: rgba(0, 0, 0, 1);
+    color: #000000;
     font-weight: initial;
     text-align: center;
     font-size: 120%;
@@ -118,7 +116,7 @@ h2{ /*Título da seção*/
 .botao{ /*Definiões dos botões*/
     background-color: rgba(24, 62, 100, 1);
     border-radius: 9%;
-    color: white;
+    color: #ffffff;
     font-size: 120%;
     margin-left: 41%;
 }
@@ -135,12 +133,12 @@ h2{ /*Título da seção*/
     font-size: 160%;
 }
 .questao{ /*Pergunta do lado esquerdo*/
-    color: rgba(24, 62, 100, 1);
+    color: #183e64;
     font-size: 170%;
     font-weight: bold;
 }
 .sugestao{ /*Sugestão do que fazer*/
-    color: rgba(24, 62, 100, 1);
+    color: #183e64;
     margin-top: 0;
     margin-bottom: .5rem;
     font-weight: 500;
@@ -148,10 +146,7 @@ h2{ /*Título da seção*/
     font-size: 120%;
 }
 .contato{ /*Informações para contato*/
-    background-color: rgba(24, 62, 100, 1);
-    color: rgba(253, 251, 245, 1);
+    background-color: #183e64;
+    color: #fdfbf5;
     text-align: center;
-}
-.perguntas{ /*Perguntas do lado direito*/
-    font-size: 110%;
 }
