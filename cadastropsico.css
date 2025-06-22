@@ -5,7 +5,7 @@ html, body {
 }
 
 body {
-  background: linear-gradient(to bottom, #125874, #257a73);
+  background-color:#183e64;
   background-repeat: no-repeat;
   background-size: cover;
   font-family: "Kameron", serif;
@@ -21,7 +21,7 @@ body {
   font-size: 1.1rem;
   font-family: "Kameron", serif;
   font-weight: bold;
-  margin-top: 4.5%;
+  margin-top: 0.5%;
 }
 
 .container-form {

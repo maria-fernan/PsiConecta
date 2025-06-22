@@ -57,4 +57,10 @@
     color: black;
     background-color: #f0f0f0;
   }
+
+  .botaoV{
+    color: #1f3c5b !important;
+    font-size: 80%;
+    font-weight: initial;
+  }
   

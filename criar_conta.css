@@ -1,6 +1,6 @@
 body, html {
     height: 100%;
-    background: linear-gradient(to bottom, #1f6077, #257a73);
+    background-color:#183e64;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -27,7 +27,7 @@ h2{
     font-size: 110%;
     font-weight: bold;
     border: solid 1px #1f3c5b;
-    background-color: #257a73;
+    background-color: #24609b;
     border-radius: 4%;
     width: 55%;
     border-radius: 5%;
@@ -40,7 +40,7 @@ h2{
     margin-top: 3%;
 }
 .botaoE{
-    color: #257a73 !important;
+    color: #24609b !important;
     font-size: 115%;
     font-weight: initial;
 }
@@ -50,6 +50,6 @@ h2{
     justify-content: center; 
 }
 .termos{
-    color: #257a73;
+    color: #24609b;
 }
 

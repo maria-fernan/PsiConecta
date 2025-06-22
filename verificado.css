@@ -4,7 +4,7 @@ body {
     font-optical-sizing: auto;
     font-weight: 700;
     color:#183e64;
-    background: linear-gradient(to bottom right, #1d6f82, #256d72);
+    background-color:#183e64;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -35,7 +35,7 @@ body {
 
   .btn {
     font-family: "Kameron", serif;
-    background-color: #237d78;
+    background-color:#24609b;
     color: white;
     border: none;
     padding: 12px 20px;
