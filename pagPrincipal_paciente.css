@@ -1,0 +1,156 @@
+body{ /*Informações GERAIS do corpo*/
+    background-color: rgba(253, 251, 245, 1);
+    font-family: "Kameron", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    color:#183e64;
+}
+
+/*Informações sobre a barra de navegação*/
+.navbar{ /*Cor de fundo da Navbar*/
+    background-color: #fdfbf5;
+}
+.item-navegacao{ /*Definições GERAIS dos intens da barra de navegação*/
+    margin-top: 1px;
+    font-size: 140%;
+}
+.botao-barra{ /*Definições do botão da barra de navegação*/
+    background-color: #183e64;
+    border-radius: 9%;
+    color: #ffffff;
+    margin-left: 25px;
+}
+.texto-marca{ /*Definições do título (PsiConecta) da barra de navegação*/
+    font-size: 220%;
+    margin-left: 2%;
+    color:#183e64;
+}
+.nav-texto{ /*Cor dos tópicos da barra de navegação*/
+    color: #183e64 !important;
+}
+.perfil{ /*Cor dos tópicos da palavra perfil*/
+    color: #183e64;
+    margin-left: 35px;
+}
+
+/*Informações sobre o início*/
+.texto{ /*Características GERAIS do texto inicial*/ 
+    font-size: 140%;
+    margin: auto;
+    margin-left: 3%;
+}
+.slogan{ /*Tamanho da fonte do slogan*/
+    font-size: 210%;
+}
+.frase{ /*Características do textinho*/
+    font-weight: initial;
+    font-size: large 10%;
+}
+.destaque{ /*Destaque -> palavras em negrito*/
+    font-weight: bold;
+}
+.imagem{ /*Características da imagem*/
+    width: 70%;
+    margin: auto;
+    margin-right: 3%;
+}
+
+/*Informações do "Como funciona"*/
+h1{ /*Título da seção*/
+    text-align: center;
+    font-weight: bold;
+    font-size: 230%;
+    color: #183e64;
+}
+#baloes{ /*Características GERAIS dos balões*/
+    background-color: #1e787833;
+    background-position: center;
+    text-align: center;
+    margin: auto;
+}
+.tituloBalao{ /*Características dos títulos dos balões*/
+    font-size: 190%;
+}
+.textoBalao{ /*Caracteristicas dos textos dos balões*/
+    font-size: 120%;
+}
+
+
+
+/*Informações do "Quero atendimento"*/
+h2{ /*Título da seção*/
+    text-align: center;
+    font-weight: bold;
+    font-size: 220%;
+    color: #1d6277;
+}
+.cartao{ /*Definições GERAIS dos cartões*/
+    background-color: #1d6277;
+    color: #fdfbf5;
+    border-radius: 5%;
+    text-align: center;
+}
+.logoBranca{ /*Definições da logo dos cartões*/
+    margin-top: 3%;
+    width: 9.5%;
+}
+.tituloCartao{ /*Definições dos títulos dos cartões*/
+    font-size: 230%;
+}
+.textoCartao{ /*Definições dos textos dos cartões*/
+    font-size: 130%;
+    font-weight: initial;
+}
+.link{ /*Definições do botão/link*/
+    color: #fdfbf5;
+    text-decoration: none;
+}
+
+/*Informações "Quero ajudar"*/
+.voluntario{ /*Títulos*/
+    text-align: center;
+    font-size: 200%;
+}
+.mensagem{ /*Definições dos textos*/
+    color: #000000;
+    font-weight: initial;
+    text-align: center;
+    font-size: 120%;
+}
+.botao{ /*Definiões dos botões*/
+    background-color: rgba(24, 62, 100, 1);
+    border-radius: 9%;
+    color: #ffffff;
+    font-size: 120%;
+    margin-left: 41%;
+}
+.linha{ /*Linha separando os "tópicos"*/
+    text-align: center;
+}
+
+/*Dúvidas*/
+.duvidas{ /*Informação GERAL do que está do lado esquerdo*/
+    text-align: center;
+}
+.nome{ /*Escrito "PsiConecta"*/
+    font-weight: bold;
+    font-size: 160%;
+}
+.questao{ /*Pergunta do lado esquerdo*/
+    color: #183e64;
+    font-size: 170%;
+    font-weight: bold;
+}
+.sugestao{ /*Sugestão do que fazer*/
+    color: #183e64;
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 120%;
+}
+.contato{ /*Informações para contato*/
+    background-color: #183e64;
+    color: #fdfbf5;
+    text-align: center;
+}

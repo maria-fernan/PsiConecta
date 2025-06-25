@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PsiConecta</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="pagPrincipal_paciente.css"><!--Link do nosso css-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+    <!--Link da fonte-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kameron:wght@400..700&display=swap" rel="stylesheet"> 
+  </head>
+  <body>
+    <!--Barra de navegação--> 
+  <!--Imagem e texto-->
+  <nav class="navbar col-12 m-auto navbar-expand-lg position-fixed" style="z-index: 999;">
+    <div class="container-fluid" style="width: 50%;">
+      <a class="navbar-brand d-inline-flex" href="#inicio">
+        <img src="logo.png" width="11%" height="11%" class="d-inline-block align-top" alt="Logo">
+        <span class="texto-marca">PsiConecta</span>
+      </a>
+    </div>
+    <!--Botão de quando a página diminui-->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="margin-right: 2%; margin-left: 25%;">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!--Itens da barra de navegação-->
+    <div class="collapse navbar-collapse item-navegacao" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-2">
+        <li class="nav-item">
+            <a class="nav-link nav-texto" href="#primeira_interacao">Como funciona</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link nav-texto" href="#segunda_interacao">Quero atendimento</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link nav-texto" href="#voluntario">Ser voluntário</a>
+        </li>
+        <div>
+            <img src="fotoperfil.png" alt="fotoperfil" width="70px" height="70px" style="margin-left: 30px; border:solid 2px rgba(24, 62, 100, 1); border-radius: 50%;" >
+            <p class="perfil">Perfil</p>
+        </div>
+      </ul>
+    </div>
+  </nav>
+  <div id="inicio"><!--Div vazia para indicar o início da página--></div>
+  <br><br><br><br><br><br><br>
+    
+  <!--Parte Inicial-->
+  <div class="container-fluid"><!--Container que facilita a página ser responsiva-->
+    <div class="row"><!--"Criação" das colunas-->
+      <div class="col-md texto"><!--Texto-->
+          <span style="background-color:rgba(214, 217, 228, 1); border-radius: 3px;">&ensp;&ensp;TRANSFORME SEU INTERIOR PARA MUDAR O SEU EXTERIOR&ensp;&ensp;</span><br>
+          <span  class="slogan">PsiConecta, onde se cuida da mente e do coração.</span><br>
+          <span class="frase">Toda mudança começa de dentro pra fora e o <span class="destaque">PsiConecta é a
+            chave</span> para se entender, se organizar internamente e mudar
+            tudo ao seu redor.</span></div>
+      <div class="col-md imagem"><!--Imagem-->
+          <img width="100%" style="border: solid 6.5px rgba(24, 62, 100, 1); border-radius: 5%;" src="equipe.jpeg" alt="equipe">
+      </div>
+    </div>
+  </div>
+  <div id="primeira_interacao"><!--Div vazia para indicar a primeira interação--></div>
+  <br><br><br><br><br><br>
+
+
+
+
+  <!--Como funciona-->
+  <h1>O que você vai encontrar aqui</h1><!--Título da seção-->
+  <br><br>
+  <div class="row col-10 m-auto row-cols-1 row-cols-md-2 g-4">
+    <div class="col"><!--Primeiro balão-->
+      <div class="card h-100 border-0" id="baloes">
+        <div class="card border-0" style="padding: 10%; background: transparent;">
+          <span class="tituloBalao">Psicólogos qualificados</span>
+          <div style="text-align: center;">
+            <img src="img1.png" style="margin: -2%; width: 50%;" alt="...">
+          </div>
+          <div class="card-body">
+            <span class="textoBalao">Uma equipe formada por profissionais<br>
+            experientes e de diferentes áreas da<br>
+            psicologia, selecionados para oferecer<br>
+            um atendimento acolhedor e ético.<br>
+          </span>
+          </div>
+        </div>
+      </div>
+    </div><!--Fim do primeiro balão-->
+    <div class="col"><!--Segundo balão-->
+      <div class="card h-100 border-0" id="baloes">
+        <div class="card border-0" style="padding: 10%; background: transparent;">
+          <span class="tituloBalao">Técnicas terapêuticas</span>
+          <div style="text-align: center;">
+            <img src="img2.png" style="margin: -2%; width: 50%;" alt="...">
+          </div>
+          <div class="card-body">
+            <span class="textoBalao">Aplicações de abordagens comprovadas<br>
+            e adaptadas às necessidades individuais<br>
+            de cada usuário.<br>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div><!--Fim do segundo balão-->  
+  </div>
+  
+  <div class="row col-10 m-auto row-cols-1 row-cols-md-2 g-4">
+    <div class="col"><!--Terceiro balão-->
+      <div class="card h-100 border-0" id="baloes">
+        <div class="card border-0" style="padding: 10%; background: transparent;">
+          <span class="tituloBalao">Psicoeducação</span>
+          <div style="text-align: center;">
+            <img src="img3.png" style="margin: -2%; width: 30%;" alt="...">
+          </div>
+          <div class="card-body">
+            <span class="textoBalao">Ajudamos você a organizar e<br> 
+            conciliar sua vida pessoal,<br>
+            sua saúde emocional e sua<br>
+            saúde física.<br>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div><!--Fim do terceiro balão-->
+    <div class="col"><!--Quarto balão-->
+      <div class="card h-100 border-0" id="baloes">
+        <div class="card border-0" style="padding: 10%; background: transparent;">
+          <span class="tituloBalao">Acessibilidade</span>
+          <div style="text-align: center;">
+            <img src="img4.png" style="margin: -9%; width: 50%;" alt="...">
+          </div>
+          <div class="card-body">
+            <span class="textoBalao">Navegação intuitiva e serviços<br> 
+            gratuitos, tornando o cuidado<br>
+            psicológico disponível para todos.<br>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div><!--Fim do quarto balão-->  
+  </div>
+  <div class="row col-10 m-auto row-cols-1 row-cols-md-2 g-4" style="display: flex; align-items: center; justify-content: center;">
+    <div class="col"><!--Quinto balão-->
+      <div class="card h-100 border-0" id="baloes">
+        <div class="card border-0" style="padding: 10%; background: transparent;">
+          <span class="tituloBalao">Contato fácil e rápido com a equipe</span>
+          <div style="text-align: center;">
+            <img src="img5.png" style="margin: 2%; width: 13%;" alt="...">
+          </div>
+          <div class="card-body">
+            <span class="textoBalao">Canal direto com a equipe de comunicação<br> 
+            com os desenvolvedores e suporte técnico<br>
+            para solucionar dúvidas ou problemas.<br>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div><!--Fim do quinto balão-->
+  </div>
+  
+  <div id="segunda_interacao"><!--Div vazia para indicar a segunda interação--></div>
+  <br><br><br><br><br>
+
+  <!--Quero atendimento-->
+  <h2 >Você não está só. <br> Conte com os voluntários do PsiConecta!</h2>
+  <br><br>
+  <div class="row col-10 m-auto row-cols-1 row-cols-md-2 g-4" style="text-align: center;" >
+  <div class="col">
+    <div class="card h-100 border-0">
+      <div class="cartao">
+        <a href="escolha.html" role="button" class="link"><!--Botão/link que vai direcionar para a página de login-->
+        <div><!--Div para transformar todo o cartão em botão-->
+        <img class="logoBranca" src="logoBranca.png">
+        <div class="tituloCartao">Psicólogos</div>
+          <div class="textoCartao">No PsiConecta você  encontra profissionais<br>
+          qualificados nas mais diversas áreas da<br>
+          psicologia, que estão dispostos à ajudar você.</div>
+        <img class="imagem4" src="psiEpaci.png" class="card-img-top" alt="..." style="width: 60%;">
+        <div class="card-body">
+        </div>
+      </div>
+      </div>
+      </a>  
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100 border-0">
+      <div class="cartao">
+        <a href="escolha.html" role="button" class="link"><!--Botão/link que vai direcionar para a página de login-->
+        <div><!--Div para transformar todo o cartão em botão-->
+        <img class="logoBranca" src="logoBranca.png">
+        <div class="tituloCartao">Fale conosco</div>
+          <div class="textoCartao">Tem alguma dúvida ou precisa de suporte?<br> 
+          No "Fale conosco" você sempre entrará em<br> 
+          contato diretamente com nossa equipe.</div>
+        <img class="imagem5" src="telefone.png" class="card-img-top" alt="..." style="width: 60%;">
+        <div class="card-body">
+        </div>
+      </div>
+    </div>
+    </div>
+    </a>
+  </div>
+  </div>
+  <br>
+
+  <div id="voluntario"><!--Div vazia para indicar a segunda interação--></div>
+  <br><br><br>
+  <!--Quero ajudar-->
+  <div class="container-fluid"><!--Container que facilita a página ser responsiva-->
+    <div class="row"><!--"Criação" das colunas-->
+      <div class="col-1"><!--Div vazia para ajustar os elementos--></div>
+      <div class="col-md"><!--Imagem-->
+        <br><br><br>
+        <img src="mocas.png" width="85%">
+      </div>
+      <div class="col-1"><!--Div vazia para ajustar os elementos--></div>
+      <div class="col-md" style="margin-top: 11%;"><!--Texto-->
+        <div class="voluntario">Que tal ser voluntário?</div><br>
+        <div class="mensagem">Doamos nosso tempo e atenção para oferecer um espaço de<br>
+          escuta e acolhimento a quem deseja conversar de forma<br>
+          anônima, sigilosa e sem julgamentos ou críticas.<br>
+          Ser voluntário no PsiConecta é muito mais do que apenas<br>
+          conversar com alguém, é lidar com os princípios de<br>
+          transparência e o sigilo que são valores fundamentais para nós.<br>
+          Venha ser voluntário no PsiConecta!
+        </div><br>
+        <a href="cadastropsico.html"><button class="botao">EU QUERO</button><br><br></a>
+      </div>
+      <div class="col-1"><!--Div vazia para ajustar os elementos--></div>
+    </div>
+  </div>
+  <br><br><br><br><br>
+
+  <!--parte das "Dúvidas"-->
+  <div class="container-fluid"><!--Container que facilita a página ser responsiva-->
+    <div class="row"><!--"Criação" das colunas-->
+      <div class="col-1"><!--Div vazia para ajustar os elementos--></div>
+      <div class="col-md duvidas"><!--Informações do lado esquerdo-->
+        <img src="logo.png" width="20%"><br>
+          <div class="nome">PsiConecta</div><br>
+          <div class="questao">
+            Ficou com alguma dúvida?
+          </div><br>
+          <div class="sugestao">
+            Entre em contato conosco.
+          </div><br>
+          <div class="contato">
+            ATENDIMENTO POR EMAIL:&ensp;  contato@psiconecta.com
+          </div>
+          <br><br><br><br>
+      </div>
+      <div class="col-1"><!--Div vazia para ajustar os elementos--></div>
+    </div>
+  </div>
+  </body>
+</html>
