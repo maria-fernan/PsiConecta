@@ -27,10 +27,13 @@ body{ /*Informações GERAIS do corpo*/
 }
 .nav-texto{ /*Cor dos tópicos da barra de navegação*/
     color: #183e64 !important;
+    margin-top: 20px;
 }
 .perfil{ /*Cor dos tópicos da palavra perfil*/
     color: #183e64;
-    margin-left: 35px;
+}
+.perfilTotal{
+    text-align: center;
 }
 
 /*Informações sobre o início*/
