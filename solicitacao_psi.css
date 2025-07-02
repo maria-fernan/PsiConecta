@@ -8,8 +8,15 @@
     color:#183e64;
     display: flex;
 }
+h2{
+    color: #1f3c5b !important;
+    font-size: 130%;
+    font-weight: bold;
+}
 body{
-    align-items: center;
+    font-family: "Kameron", serif;
+    font-optical-sizing: auto;
+    align-items: center; 
     justify-content: center;
     display: flex;
     height: 100vh;
