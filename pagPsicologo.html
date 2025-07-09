@@ -57,23 +57,15 @@
   <div id="primeira_interacao"><!--Div vazia para indicar a primeira interação--></div>
   <br><br><br><br><br><br>
 
-
   <!--Ir para configurações-->
   <h2>Iniciar atendimento</h2>
   <br><br>
   <div class="linha" style="text-align: center;">
     <div class="botao">
-      <div class="cartao">
-        <a href="" role="button" class="link"><!--Botão/link que vai direcionar para a página de atendimento-->
-        <div><!--Div para transformar todo o cartão em botão-->
-        <img class="img" src="telefonepsic.png" class="card-img-top" alt="..." style="width: 40%;">
-        <div class="card-body">
-        </div>
-      </div>
-      </div>
+        <button id="statusBtn" class="status" style="height: 70px; width: 180px; border-radius: 40px; font-weight:bolder;">OFF-LINE</button>
     </div>
-  <br><br><br><br><br>
-
+  <br><br><br><br>
+    
   <!--parte das "Dúvidas"-->
   <div class="container-fluid"><!--Container que facilita a página ser responsiva-->
     <div class="row"><!--"Criação" das colunas-->
@@ -95,6 +87,35 @@
       <div class="col-1"><!--Div vazia para ajustar os elementos--></div>
     </div>
   </div>
-
   </body>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+    const statusBtn = document.getElementById("statusBtn");
+    const savedStatus = localStorage.getItem("onlineStatus");
+    if (savedStatus === "online") {
+        setOnline();
+    } else {
+        setOffline();
+    }
+    statusBtn.addEventListener("click", () => {
+        if (statusBtn.classList.contains("offline")) {
+            setOnline();
+        } else {
+            setOffline();
+        }
+    });
+    function setOnline() {
+        statusBtn.textContent = "ON-LINE";
+        statusBtn.classList.remove("offline");
+        statusBtn.classList.add("online");
+        localStorage.setItem("onlineStatus", "online");
+    }
+    function setOffline() {
+        statusBtn.textContent = "OFF-LINE";
+        statusBtn.classList.remove("online");
+        statusBtn.classList.add("offline");
+        localStorage.setItem("onlineStatus", "offline");
+    }
+});
+</script>
 </html>
