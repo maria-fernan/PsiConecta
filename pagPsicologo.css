@@ -68,19 +68,24 @@ h2{ /*Título da seção*/
     font-size: 220%;
     color: #183e64;
 }
-.cartao{ /*Definições GERAIS dos cartões*/
-    background-color: rgba(253, 251, 245, 1);
-    color: rgba(253, 251, 245, 1);
-    border-radius: 5%;
-    border: 1px solid #183e64;
-    display: inline-block;
-    padding: 5%;
-    width: 40%;
-}
+
 .botao{
     align-items: center;
 }
-
+.status.offline {
+    background-color: red;
+    color: black;
+    font-size: 25px;
+    font-family:"Kameron";
+    border: none;
+}
+.status.online {
+    background-color: rgb(1, 180, 1);
+    color: black;
+    font-size: 25px;
+    font-family:"Kameron";
+    border: none;
+}
 .tituloCartao{ /*Definições dos títulos dos cartões*/
     font-size: 230%;
 }
