@@ -13,6 +13,7 @@ body{ /*Informações GERAIS do corpo*/
 .item-navegacao{ /*Definições GERAIS dos intens da barra de navegação*/
     margin-top: 1px;
     font-size: 140%;
+    margin-left: 21%;
 }
 .botao-barra{ /*Definições do botão da barra de navegação*/
     background-color: #183e64;

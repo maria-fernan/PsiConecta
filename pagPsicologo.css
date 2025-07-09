@@ -9,10 +9,12 @@ body{ /*Informações GERAIS do corpo*/
 /*Informações sobre a barra de navegação*/
 .navbar{ /*Cor de fundo da Navbar*/
     background-color: #fdfbf5;
+    --bs-navbar-padding-x: none;
 }
 .item-navegacao{ /*Definições GERAIS dos intens da barra de navegação*/
     margin-top: 1px;
     font-size: 140%;
+    margin-left: 43%;
 }
 .botao-barra{ /*Definições do botão da barra de navegação*/
     background-color: #183e64;
@@ -25,11 +27,8 @@ body{ /*Informações GERAIS do corpo*/
     margin-left: 2%;
     color:#183e64;
 }
-.nav-texto{ /*Cor dos tópicos da barra de navegação*/
-    color: #183e64 !important;
-}
 .perfilpsico{
-    margin-left: 80%;
+    margin-top: 10px;
 }
 .perfil{
     color:#183e64;
@@ -37,6 +36,10 @@ body{ /*Informações GERAIS do corpo*/
 a{
     color: #183e64;
 }
+.perfilTotal{
+    text-align: center;
+}
+
 /*Informações sobre o início*/
 .texto{ /*Características GERAIS do texto inicial*/ 
     font-size: 140%;
