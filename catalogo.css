@@ -14,12 +14,6 @@
     width: 100%;
     justify-content: space-around;
 }
-@media screen and (max-width: 768px){
-    .responsividade{
-        width: 100%;
-        flex-direction: column;
-    }
-}
 .bnt-descricoes{
     display: flex;
 }
@@ -27,6 +21,29 @@
     border-radius: 30px 30px 30px 30px;
     background-color: rgba(29, 98, 119, 1);
 }
+
+.responsivo1{
+   
+}
+.responsivo2{
+
+}
+
+@media (max-width: 1060px){
+  .responsivo1 {
+      display: none;
+  }
+}
+
+@media (min-width: 1061px){
+  .responsivo2 {
+      display: none;
+  }
+}
+
+
+
+
 @media screen and (max-width: 768px){
     .container1{
         width: 100%;
