@@ -14,6 +14,7 @@ body{ /*Informações GERAIS do corpo*/
     margin-top: 1px;
     font-size: 140%;
     margin-left: 21%;
+    margin-right: 1%;
 }
 .botao-barra{ /*Definições do botão da barra de navegação*/
     background-color: #183e64;

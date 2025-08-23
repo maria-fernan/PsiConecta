@@ -25,17 +25,53 @@
                     <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
                 </svg><br>
                 <div style="font-size: 120%;">   (Nome e Sobrenome)<br>
-                    cidade e estado
                 </div>
             </div>
             <div class="col-4 col-md-4">
-                <button style="color:#183e64;" type="button" class="btn">
+                <button style="color:#183e64;" type="button" class="btn"data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
                     <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-file-earmark-fill" viewBox="0 0 16 16">
                         <path d="M4 0h5.293A1 1 0 0 1 10 .293L13.707 4a1 1 0 0 1 .293.707V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2m5.5 1.5v2a1 1 0 0 0 1 1h2z"/>
                     </svg><br>
                     Editar <br>
                     Informações
                 </button><br>
+                <div class="collapse" id="collapseExample">
+                    <div class="card card-body">
+                       <form id="formulario" class="formulario w-100">
+    <div class="linha">
+    <div class="campo">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" class="form-control" />
+    </div>
+
+    <div class="campo">
+        <label for="data">Data de nascimento:</label>
+        <input type="date" id="data" class="form-control" />
+    </div>
+
+    <div class="campo">
+        <label for="email">Email:</label>
+        <input type="email" id="email" class="form-control" />
+    </div>
+
+    <div class="campo">
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" class="form-control" />
+    </div>
+
+    <div class="campo">
+        <label for="telefone">Telefone com DDD:</label>
+        <input type="tel" id="telefone" class="form-control" />
+    </div><br>
+
+    <button type="submit">Salvar</button>
+    </div>
+    </form>
+                    </div>
+                </div>
+
+
+
             </div>
             <div class="w-100"></div>
             <br><br><br><br>
