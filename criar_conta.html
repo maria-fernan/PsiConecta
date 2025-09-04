@@ -15,42 +15,60 @@
     <link href="https://fonts.googleapis.com/css2?family=Kameron:wght@400..700&display=swap" rel="stylesheet">
 </head>
 <body>
-<div class="container mt-6">
+<div class="container mt-8">
     <div class="row align-items-center">
-        <div class="col-md-10 mx-auto col-lg-5 caixa">
+        <div class="mx-auto  caixa">
             <img src="logo.png" alt="Logo" class="logo">
-            <h2>Criar uma conta</h2>
-            <form class="p-4 p-md-5">
-                <div class="mb-3 subtitulo">
-                    <input type="email" name="search" class="form-control" id="validationDefault01" required id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Endereço de email*" />
-                </div>
-                <br>
-                <div class="col-12">
-                  <a href="criar_conta_2.html"><button type="button" class="continuar">CONTINUAR</button></a>
-                </div>
-                <br>
-                <div style="text-align: center; display: flex; justify-content: center;">
-                  <p style="margin-top: 2%; margin-right: -2%;">Já tem uma conta?</p>
-                  <a style="margin-right: -3%;" href="loginExistente.html" class="btn botaoE">Entrar</a>
-                </div>
-            </form>
-            <form class="p-4 p-md-5" style="margin-top: -18%;">
-              <div style="text-align: center; display: flex; justify-content: center;">
-                  <p style="margin-right: 4%;">______________</p>
-                  <p style="margin-top: 2%;">ou</p>
-                  <p style="margin-left: 4%;">______________</p>
-                </div>
-                <button style="background-color: white; border: solid 1px #1f3c5b; border-radius: 4%;" class="col-10 m-auto">
-                  <div class="google">
-                    <img src="google-37.png" alt="" style="width: 9%; height: 9%; margin-right: 5%; padding-top: 2%; padding-bottom: 2%;">
-                  <p style="margin-top: 3%; font-size: 18px; margin-bottom: 1%;">Continuar com o Google</p>
+            <h2>Criar uma conta</h2><br>
+            <form action="cadastroPaci.php" method="post">
+                <div class="mb-3">
+                  <div class="row g-3">
+                  <div class="col-md-6">
+                   <label for="validationDefault01" class="form-label" style="margin-right: 60%;">Email</label>
+                    <input style=" border: solid 1px #1f3c5b; margin-top: -4%;" type="email" name="email" class="form-control" id="validationDefault01" required id="exampleInputEmail1"/>
                   </div>
-                </button>
+                  <div class="col-md-6">
+                        <label for="validationDefault01" class="form-label" style="margin-right: 60%;">Nome</label>
+                        <input style=" border: solid 1px #1f3c5b; margin-top: -4%;" type="text" class="form-control" id="validationDefault01" name="nome" required/>
+                    </div>
+                    </div>
+                  </div>
+                <div class="mb-3">
+                    <div class="row g-3">
+                    <div class="col-md-6">
+                         <label for="validationDefault01" class="form-label" style="margin-right: 60%; margin-bottom: 3%;">Telefone</label>
+                        <input style=" border: solid 1px #1f3c5b; margin-top: -4%;" type="text" class="form-control" id="validationDefault01" name="telefone" required/>
+                    </div>
+                    <div class="col">
+                        <label style="margin-right: 10%;" for="data_nascimento" for="validationDefault02" class="form-label">Data de Nascimento</label>
+                        <br>
+                        <input style=" border: solid 1px #1f3c5b; height: 37px; padding-left: 30%; margin-top: -4%;" type="date" id="data_nascimento" name="data" class="form-control" id="validationDefault02" required/>
+                    </div>
+                    </div>
+                    <br>
+                    <div class="row g-3">
+                    <div class="col-md-6">
+                        <label style="margin-right: 36%; margin-bottom: 0%;" for="inputPassword4" for="validationDefault03" class="form-label">Crie uma senha</label>
+                        <input style=" border: solid 1px #1f3c5b;" type="password" id="inputPassword4" class="form-control" id="validationDefault03" name="senha" required/>
+                    </div>
+                    <div class="col">
+                        <label style="margin-right: 26%; margin-bottom: 0%;" for="inputPassword4" for="validationDefault04" class="form-label">Confirme sua senha</label>
+                        <input style=" border: solid 1px #1f3c5b;" type="password" class="form-control" id="validationDefault04" name="confirma_senha" required id="inputPassword4"/>
+                    </div>
+                    </div>
+                  </div>
+                <div class="form-check col-md-10 mx-auto">
+                    <div class="form-check">
+                    <input style=" border: solid 1px #1f3c5b;" class="form-check-input" type="checkbox" value="" id="invalidCheck2" required/>
+                    <label class="form-check-label" for="invalidCheck2">
+                        Li e concordo com os  <a href="#"> Termos de Uso </a>
+                    </label>
+                    </div> 
+                </div>
+                    <button type="submit">Faça login</button>
                 <br><br>
-                <a href="" class="termos">Termos de Uso | política de privacidade</a>
+                <div> Já tem uma conta? <a href="entrarPaci.html">Entrar</a></div>
                 <br>
-                <a href="escolha.html" class="btn botaoV"><- Voltar</a>
-                <br><br>
             </form>
         </div>
     </div>

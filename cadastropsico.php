@@ -10,8 +10,10 @@ $senha = $_POST['senha'];
 $crp = $_POST['crp'];
 $telefone = $_POST['telefone'];
 
+$senhaHash = password_hash($senha, PASSWORD_DEFAULT);
+
 $sql = "INSERT INTO psicologo ( nome, cpf, dtNasc, email, senha, crp) 
-VALUES ( '$nome', '$cpf','$dtNasc', '$email', '$senha', '$crp') ";
+VALUES ( '$nome', '$cpf','$dtNasc', '$email', '$senhaHash', '$crp') ";
 
 mysqli_query($conexao, $sql)
 or die("Erro na consulta. " . mysqli_error($conexao) );

@@ -22,8 +22,11 @@ h2{
     font-size: 160%;
     font-weight: bold;
 }
-.termos{
-    color: #24609b;
+.botaoV{
+    color: #1f3c5b !important;
+    font-size: 115%;
+    font-weight: initial;
+    margin-top: 3%;
 }
 button[type="submit"] {
   background-color: #1f3c5b;

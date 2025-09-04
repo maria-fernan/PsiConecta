@@ -1,26 +1,56 @@
 <?php
-$conexao = mysqli_connect("localhost","root","", "psiconecta") 
-or die("Erro ao conectar. " . mysqli_error() );
+// Conexão com o banco (orientado a objeto)
+$conn = new mysqli("localhost", "root", "", "psiconecta");
 
-$nome =  $_POST['nome'];
-$cpf = $_POST['cpf'];
-$dtNasc = $_POST['data'];
-$email = $_POST['email'];
-$senha = $_POST['senha'];
-$crp = $_POST['crp'];
+// Verifica se deu erro na conexão
+if ($conn->connect_error) {
+    die("Erro ao conectar: " . $conn->connect_error);
+}
+
+// Pegando os dados do formulário
+$email    = $_POST['email'];
+$nome     = $_POST['nome'];
+$dtNasc   = $_POST['data'];
+$senha    = $_POST['senha'];
 $telefone = $_POST['telefone'];
 
-$sql = "INSERT INTO psicologo ( nome, cpf, dtNasc, email, senha, crp) 
-VALUES ( '$nome', '$cpf','$dtNasc', '$email', '$senha', '$crp') ";
+// 1. Verificar se o email já existe
+$sql = "SELECT idPaciente FROM paciente WHERE email = ?";
+$stmt = $conn->prepare($sql);
+$stmt->bind_param("s", $email);
+$stmt->execute();
+$result = $stmt->get_result();
 
-mysqli_query($conexao, $sql)
-or die("Erro na consulta. " . mysqli_error($conexao) );
+if ($result->num_rows > 0) {
+    echo "Esse e-mail já está cadastrado!";
+} else {
+    // 2. Gerar hash da senha
+    $senhaHash = password_hash($senha, PASSWORD_DEFAULT);
 
-$sql = "INSERT INTO telpsi (telefone, crp) 
-VALUES ( '$telefone', '$crp') ";
+    // 3. Inserir paciente
+    $sql = "INSERT INTO paciente (email, nome, dtNasc, senha) VALUES (?, ?, ?, ?)";
+    $stmt = $conn->prepare($sql);
+    $stmt->bind_param("ssss", $email, $nome, $dtNasc, $senhaHash);
 
-mysqli_query($conexao, $sql)
-or die("Erro na consulta. " . mysqli_error($conexao) );
+    if ($stmt->execute()) {
+        // Pega o ID gerado
+        $idPaciente = $stmt->insert_id;
 
-header("Location: cadastroSucessoPsi.html");
+        // 4. Inserir telefone
+        $sqlTel = "INSERT INTO telpaci (telefone, idPaciente) VALUES (?, ?)";
+        $stmtTel = $conn->prepare($sqlTel);
+        $stmtTel->bind_param("si", $telefone, $idPaciente);
+        $stmtTel->execute();
+
+        // 5. Redireciona para página de sucesso
+        header("Location: cadastroSucessoPaci.html");
+        exit;
+    } else {
+        echo "Erro ao cadastrar paciente: " . $conn->error;
+    }
+}
+
+// Fecha conexões
+$stmt->close();
+$conn->close();
 ?>
